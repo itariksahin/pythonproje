@@ -103,7 +103,7 @@ while success:
 				cv2.rectangle(image,(x,y),(x+w,y+h),(0,255,0),3)
 
 
-	cv2.imwrite("./Cropped/frame%d.jpg" % count, res)
+	cv2.imwrite("./foto/frame%d.jpg" % count, res)
 	print ('Yeni cerceve: '), success   
 	count += 1
 	cv2.imshow('Match Detection',image)
