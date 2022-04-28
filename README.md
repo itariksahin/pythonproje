@@ -1,0 +1,2 @@
+# pythonproje
+projecalismasi
